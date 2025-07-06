@@ -9,6 +9,6 @@ Of course, only use it on testing environments.
 
 # How to use it:
 1. Add the plugin to the plugins array of swaggerUI
-2. Add a extension to swagger with the name: `x-custom-tokens that contains a list of the JWT that you want to use for your tests
+2. Add a extension to swagger with the name: `x-custom-tokens` that contains a list of the JWT that you want to use for your tests
     1. Create a list of JWT that all of them have a property `name` in it. So the plugin can list the JWT's as buttons.
     2. Pass this list with the extension `x-custom-tokens`to swagger
