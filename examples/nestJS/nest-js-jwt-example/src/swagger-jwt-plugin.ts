@@ -208,7 +208,7 @@ export const JWTListingPlugin = {
                 tokenExpirationCont,
             ];
 
-            // Inserta los botones
+            // Insert UIElements
             return system.React.createElement('div', { style: { width: '100%' } }, UIElements);
         },
     },
